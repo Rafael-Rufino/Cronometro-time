@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 18, 18);
+    max-width: 600px;
+    border-radius: 4px;
+    margin: 40px auto;
+    height: 500px;
+    padding: 40px;
+}
+
+.container #containerTime{
+
+    height:250px;
+    border-radius: 8px;
+
+   
+}
+
+.container  h1{
+    text-align: center;
+    color: rgb(31, 182, 174);
+    border:  2px dashed rgb(168, 211, 15);
+    padding: 10px;
+    width: 300px;
+    font-size: 40px;
+    padding-top: 5px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0 auto;
+
+}
+
+.container #containerTime{
+    text-align: center;
+    padding-top: 5px;
+    margin: 20px auto;
+    width: 500px;
+  
+
+}
+.relogio {
+    color: white;
+
+    font-size: 80px;
+}
+.btnController{
+  margin: 0 auto;
+  display: inline;
+}
+
+.btnController,
+.btnIniciar, .btnPausar, .btnZerar {
+    margin: 40px auto;
+    width:300px;
+    height:40px;
+    align-items: center;
+
+}
+.btnIniciar{
+    background: rgb(14, 219, 14);
+    color:white;
+    border: 0;
+    width: 100px;
+}
+.btnPausar{
+    background: rgb(245, 60, 60);
+    color:white;
+    border: 0;
+    width: 100px;
+}
+.btnZerar{
+    background: gray;
+    color:white;
+    border: 0;
+    width: 100px;
+}
+
+
+
+body, html{
+    background-color: rgb(95, 36, 161);
+    height: 100%;
+    width: 100%;
+
+}
+
+.pausado{
+    color: red;
+}
