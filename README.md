@@ -16,7 +16,7 @@
 
 ## :bookmark: Sobre
 
-O <strong>Cronômetro</strong> é uma aplicação que permite marca o tempo deseja para alguma atividade.
+O <strong>Cronômetro</strong> é uma aplicação que permite marca o tempo desejado para realizar alguma atividade.
 
 Essa aplicação foi construída durante o curso <strong> JavaScript e TypeScript do Básico ao avançado </strong> distribuída por  Luiz Otávio Miranda..
 
